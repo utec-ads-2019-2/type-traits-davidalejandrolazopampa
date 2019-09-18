@@ -25,9 +25,9 @@ using namespace std;
 #endif
 
 #define NUMBER_OF_TESTS 1000
-
+// Funcker solo sobrescribe Greater y Less
 template <typename T>
-struct Greater {
+    struct Greater {
     bool operator()(T a, T b) {
         return a >= b;
     }
@@ -39,7 +39,7 @@ struct Less {
         return a <= b; 
     }
 };
-
+// Son Tress Estructuras.
 struct Integer {
        typedef int T;
        typedef Less<T> Operation;

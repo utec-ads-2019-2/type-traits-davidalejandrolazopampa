@@ -1,0 +1,48 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/David Lazo/Documents/GitHub/type-traits-davidalejandrolazopampa/main.cpp
+iostream
+-
+test/tester.h
+C:/Users/David Lazo/Documents/GitHub/type-traits-davidalejandrolazopampa/test/tester.h
+
+C:/Users/David Lazo/Documents/GitHub/type-traits-davidalejandrolazopampa/mock/mocker.h
+random
+-
+type_traits
+-
+
+C:/Users/David Lazo/Documents/GitHub/type-traits-davidalejandrolazopampa/node.h
+
+C:/Users/David Lazo/Documents/GitHub/type-traits-davidalejandrolazopampa/self_list.h
+node.h
+C:/Users/David Lazo/Documents/GitHub/type-traits-davidalejandrolazopampa/node.h
+
+C:/Users/David Lazo/Documents/GitHub/type-traits-davidalejandrolazopampa/test/tester.cpp
+tester.h
+C:/Users/David Lazo/Documents/GitHub/type-traits-davidalejandrolazopampa/test/tester.h
+
+C:/Users/David Lazo/Documents/GitHub/type-traits-davidalejandrolazopampa/test/tester.h
+stdexcept
+-
+iostream
+-
+assert.h
+-
+../mock/mocker.h
+C:/Users/David Lazo/Documents/GitHub/type-traits-davidalejandrolazopampa/mock/mocker.h
+../traits_list.h
+C:/Users/David Lazo/Documents/GitHub/type-traits-davidalejandrolazopampa/traits_list.h
+../self_list.h
+C:/Users/David Lazo/Documents/GitHub/type-traits-davidalejandrolazopampa/self_list.h
+
+C:/Users/David Lazo/Documents/GitHub/type-traits-davidalejandrolazopampa/traits_list.h
+node.h
+C:/Users/David Lazo/Documents/GitHub/type-traits-davidalejandrolazopampa/node.h
+
